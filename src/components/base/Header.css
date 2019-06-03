@@ -1,0 +1,23 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+#header-icon {
+    flex-basis: 5%;
+}
+
+#search {
+    flex-basis: 50%
+}
+
+#search input {
+    width: 100%;
+}
+
+.header-item{
+    flex: 0 0;
+}
+
+

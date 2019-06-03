@@ -1,11 +1,24 @@
-import * as React from "react";
+import React, {Fragment} from "react";
+import './Header.css';
 
-export const Header: React.FC = props => {
+
+
+const Header: React.FC = props => {
     return (
-        <div>
-            <header>
-                
-            </header>
-        </div>
+        <Fragment>
+            <footer id="header">
+                <div className="header-side">
+                    ICON
+                </div>
+                <div className="icon">
+                    SearchBAR
+                </div>
+                <div className="header-side">
+                    Mypage
+                </div>
+            </footer>
+        </Fragment>
     );
 };
+
+export default Header;
