@@ -7,15 +7,7 @@ const Header: React.FC = props => {
     return (
         <Fragment>
             <footer id="header">
-                <div className="header-side">
-                    ICON
-                </div>
-                <div className="icon">
-                    SearchBAR
-                </div>
-                <div className="header-side">
-                    Mypage
-                </div>
+               this is footer
             </footer>
         </Fragment>
     );
